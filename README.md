@@ -102,6 +102,10 @@ Step distribution
 Chi-2 = 1.4242400000000877
 
 
+## Utility class *RandomDistributionGenerator*
+I created a small utility class that can be used to generate distribution map after N runs. Its usage is straightforward:
+*Map<Integer, Integer> counts = RandomDistributionGenerator.generateDistribution (values, probabilities, N);*
+
 ## Building
 Jar file can be built with command "*mvn package*"
 
